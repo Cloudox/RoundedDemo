@@ -14,6 +14,7 @@
 		ADBDD6501C4636CD007D2B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD64F1C4636CD007D2B8E /* Images.xcassets */; };
 		ADBDD6531C4636CD007D2B8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD6511C4636CD007D2B8E /* LaunchScreen.xib */; };
 		ADBDD65F1C4636CD007D2B8E /* RoundedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBDD65E1C4636CD007D2B8E /* RoundedDemoTests.m */; };
+		ADBDD6691C463715007D2B8E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD6681C463715007D2B8E /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		ADBDD6581C4636CD007D2B8E /* RoundedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDD65D1C4636CD007D2B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBDD65E1C4636CD007D2B8E /* RoundedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedDemoTests.m; sourceTree = "<group>"; };
+		ADBDD6681C463715007D2B8E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				ADBDD64C1C4636CC007D2B8E /* Main.storyboard */,
 				ADBDD64F1C4636CD007D2B8E /* Images.xcassets */,
 				ADBDD6511C4636CD007D2B8E /* LaunchScreen.xib */,
+				ADBDD6681C463715007D2B8E /* icon.png */,
 				ADBDD6421C4636CC007D2B8E /* Supporting Files */,
 			);
 			path = RoundedDemo;
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBDD6691C463715007D2B8E /* icon.png in Resources */,
 				ADBDD64E1C4636CC007D2B8E /* Main.storyboard in Resources */,
 				ADBDD6531C4636CD007D2B8E /* LaunchScreen.xib in Resources */,
 				ADBDD6501C4636CD007D2B8E /* Images.xcassets in Resources */,
