@@ -46,6 +46,19 @@
     btnTwo.layer.masksToBounds = YES;
     btnTwo.layer.cornerRadius = 4.0;
     [self.view addSubview:btnTwo];
+    
+    // 带边框的圆角Label
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake((SCREENWIDTH - 200) / 2, 390, 200, 40)];
+    label.text = @"带边框圆角label";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor colorWithRed:228.0/255.0 green:117.0/255.0 blue:97.0/255.0 alpha:1.0];
+    // 设置边框宽度
+    label.layer.borderWidth = 1.0;
+    // 设置边框颜色
+    label.layer.borderColor = [[UIColor colorWithRed:228.0/255.0 green:117.0/255.0 blue:97.0/255.0 alpha:1.0] CGColor];
+    // 设置圆角
+    [label.layer setCornerRadius:4.0];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

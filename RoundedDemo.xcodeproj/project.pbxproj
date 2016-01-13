@@ -15,7 +15,7 @@
 		ADBDD6531C4636CD007D2B8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD6511C4636CD007D2B8E /* LaunchScreen.xib */; };
 		ADBDD65F1C4636CD007D2B8E /* RoundedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBDD65E1C4636CD007D2B8E /* RoundedDemoTests.m */; };
 		ADBDD6691C463715007D2B8E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD6681C463715007D2B8E /* icon.png */; };
-		ADBDD66B1C463F6D007D2B8E /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD66A1C463F6D007D2B8E /* demo.jpg */; };
+		ADBDD66D1C464408007D2B8E /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBDD66C1C464408007D2B8E /* demo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		ADBDD65D1C4636CD007D2B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBDD65E1C4636CD007D2B8E /* RoundedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedDemoTests.m; sourceTree = "<group>"; };
 		ADBDD6681C463715007D2B8E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		ADBDD66A1C463F6D007D2B8E /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		ADBDD66C1C464408007D2B8E /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 				ADBDD6411C4636CC007D2B8E /* RoundedDemo */,
 				ADBDD65B1C4636CD007D2B8E /* RoundedDemoTests */,
 				ADBDD6401C4636CC007D2B8E /* Products */,
-				ADBDD66A1C463F6D007D2B8E /* demo.jpg */,
+				ADBDD66C1C464408007D2B8E /* demo.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,7 +208,7 @@
 				ADBDD6691C463715007D2B8E /* icon.png in Resources */,
 				ADBDD64E1C4636CC007D2B8E /* Main.storyboard in Resources */,
 				ADBDD6531C4636CD007D2B8E /* LaunchScreen.xib in Resources */,
-				ADBDD66B1C463F6D007D2B8E /* demo.jpg in Resources */,
+				ADBDD66D1C464408007D2B8E /* demo.jpg in Resources */,
 				ADBDD6501C4636CD007D2B8E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
