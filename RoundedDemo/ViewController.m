@@ -23,10 +23,17 @@
     avatarImgView.image = [UIImage imageNamed:@"icon"];
     // 图片做圆形，圆角角度为宽度的一般，而高宽一直，因此可以形成正圆
     avatarImgView.layer.masksToBounds = YES;
-    avatarImgView.layer.cornerRadius = avatarImgView.frame.size.width / 2 ;
+    avatarImgView.layer.cornerRadius = avatarImgView.frame.size.height / 2 ;
     [self.view addSubview:avatarImgView];
     
-    
+    UIButton *btnOne = [[UIButton alloc] initWithFrame:CGRectMake((SCREENWIDTH - 200) / 2, 250, 200, 40)];
+    [btnOne setTitle:@"完全圆角" forState:UIControlStateNormal];
+    [btnOne setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btnOne setBackgroundColor:[UIColor colorWithRed:228.0/255.0 green:117.0/255.0 blue:97.0/255.0 alpha:1.0]];
+    // 按钮圆弧，以高度的一半为圆角，两边会形成完整的半圆
+    btnOne.layer.masksToBounds = YES;
+    btnOne.layer.cornerRadius = btnOne.frame.size.height / 2 ;
+    [self.view addSubview:btnOne];
 }
 
 - (void)didReceiveMemoryWarning {
